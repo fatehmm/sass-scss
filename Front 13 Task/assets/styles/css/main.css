@@ -1,0 +1,262 @@
+@charset "UTF-8";
+.navbar {
+  background-color: rgb(34, 37, 41);
+  display: flex;
+  justify-content: space-between;
+}
+.navbar__col {
+  display: flex;
+  justify-content: center;
+}
+.navbar__col__title {
+  color: white;
+}
+.navbar__links ul {
+  list-style: none;
+}
+.navbar__links ul li {
+  display: inline-block;
+  padding: 3px;
+}
+.navbar__links ul li a {
+  text-decoration: none;
+  color: rgb(200, 200, 200);
+}
+
+main .intro {
+  padding: 150px 0;
+  background-color: rgb(34, 37, 41);
+}
+main .intro__infogram {
+  margin: 0 auto;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .intro__infogram__texts {
+  color: white;
+}
+main .intro__infogram__texts h2 {
+  font-size: 40px;
+  text-align: center;
+  font-weight: 800;
+}
+main .intro__infogram__texts p {
+  color: rgb(200, 200, 200);
+  text-align: center;
+}
+main .intro__infogram__buttons {
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+}
+main .features {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  border-color: rgb(248, 248, 248);
+}
+main .features__div {
+  box-sizing: border-box;
+  padding: 20px;
+}
+main .features__div__icon-div {
+  background: rgb(16, 212, 255);
+  background: linear-gradient(90deg, rgb(16, 212, 255) 0%, rgb(23, 137, 244) 100%);
+  width: 4rem;
+  height: 4rem;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .features__div__icon-div i {
+  font-size: 2rem;
+  color: white;
+}
+main .features__div__texts {
+  margin: 5px 0;
+}
+main .features__div__link a {
+  text-decoration: none;
+}
+main .payment {
+  background-color: rgb(248, 248, 248);
+}
+main .payment__title-div {
+  display: flex;
+  justify-content: center;
+}
+main .payment__title-div div {
+  margin: 50px 0;
+  width: 30vw;
+}
+main .payment__title-div div h2 {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+}
+main .payment__title-div div p {
+  text-align: center;
+}
+main .payment__pricings {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+main .payment__pricings__pricing {
+  background-color: white;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid rgb(248, 248, 248);
+}
+main .payment__pricings__pricing .price-tag {
+  margin: 20px 0;
+}
+main .payment__pricings__pricing .price-tag h2 {
+  padding-left: 4rem;
+  margin-top: 4rem;
+  font-size: 50px;
+  font-weight: 800;
+  position: relative;
+}
+main .payment__pricings__pricing .price-tag h2::before {
+  content: "FREE";
+  font-size: 15px;
+  position: absolute;
+  top: -1em;
+}
+main .payment__pricings__pricing .price-tag h2::after {
+  content: "/ mo.";
+  font-size: 15px;
+  position: absolute;
+  bottom: 1em;
+  color: rgb(200, 200, 200);
+}
+main .payment__pricings__pricing .feature-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .payment__pricings__pricing .feature-list ul {
+  list-style: none;
+}
+main .payment__pricings__pricing .feature-list ul .included-list-items {
+  padding: 3px;
+}
+main .payment__pricings__pricing .feature-list ul .included-list-items::before {
+  content: "☑";
+}
+main .payment__pricings__pricing .feature-list ul .not-included-list-items {
+  padding: 3px;
+}
+main .payment__pricings__pricing .feature-list ul .not-included-list-items::before {
+  content: "❌";
+}
+main .payment__pricings__pricing button {
+  width: 80%;
+  margin-bottom: 2rem;
+}
+main .testimonials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .testimonials__title {
+  margin: 4rem 0 1rem 0;
+}
+main .testimonials__quotes {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+main .testimonials__quotes__quote {
+  margin: 1.5rem;
+  border: 0.5px solid rgb(200, 200, 200);
+  border-radius: 7px;
+  display: flex;
+  box-sizing: border-box;
+  padding: 10px 8px;
+  align-items: stretch;
+}
+main .testimonials__quotes__quote .icon-div {
+  margin: 5px 20px;
+}
+main .testimonials__quotes__quote .icon-div i {
+  font-size: 3rem;
+  color: blue;
+}
+main .testimonials__quotes__quote__text::after {
+  content: "- Client Name, Location";
+  color: rgb(200, 200, 200);
+}
+main .contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .contact__title {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .contact__title .title-wrapper {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+main .contact__title__icon-div {
+  background: rgb(16, 212, 255);
+  background: linear-gradient(90deg, rgb(16, 212, 255) 0%, rgb(23, 137, 244) 100%);
+  width: 4rem;
+  height: 4rem;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .contact__title__icon-div i {
+  font-size: 2rem;
+  color: white;
+}
+main .contact__title h2 {
+  margin: 10px 0;
+  font-size: 36px;
+  font-weight: 700;
+}
+main .contact .form-div {
+  width: 50vw;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+main .contact .form-div form {
+  align-self: center;
+  margin: 0 auto;
+}
+main .contact .form-div form input {
+  width: 50vw;
+  height: 3.5rem;
+  margin: 0.7rem 0;
+}
+main .contact .form-div form textarea {
+  width: 50vw;
+  margin: 0.7rem 0;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(34, 37, 41);
+}
+footer span {
+  margin: 3rem 0;
+  color: white;
+  font-size: 1.3rem;
+  text-align: center;
+  display: inline-block;
+}/*# sourceMappingURL=main.css.map */
